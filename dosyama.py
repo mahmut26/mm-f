@@ -5,7 +5,7 @@ import mediapipe as mp
 import time
 import sys
 
-os.chdir("C:/Users/Mahmut T. Kanbollu/Desktop")
+os.chdir("/Desktop")
 os.startfile("Yeni Metin Belgesi.bat")
 webbrowser.open('http://localhost:80')
 
