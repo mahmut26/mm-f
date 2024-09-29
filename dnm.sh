@@ -10,6 +10,7 @@ sudo apt install libarchive-dev
 sudo apt install intltool 
 sudo apt install libxml2-utils
 curl -O -L https://github.com/midori-browser/core/releases/download/v9.0/midori-v9.0.tar.gz
+tar -xvf midori-v9.0.tar.gz
 cd midori-v9.0
 mkdir _build
 cd _build
