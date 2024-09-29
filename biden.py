@@ -3,7 +3,7 @@ import webbrowser
 import cv2
 import mediapipe as mp
 import time
-os.chdir("C:/Users/Mahmut T. Kanbollu/Desktop")
+os.chdir(" /Desktop")
 os.startfile("Yeni Metin Belgesi - Kopya.bat")
 webbrowser.open('http://localhost:85')
 time.sleep(2.0)
