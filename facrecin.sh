@@ -21,6 +21,7 @@ sudo apt-get install python3-numpy
 sudo apt-get install python3-pip
 sudo apt-get install zip
 sudo apt-get install libopenblas-dev
+sudo apt-get install python3-full
 sudo pip3 install dlib
 
 sudo pip3 install --no-cache-dir face_recognition
