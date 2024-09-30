@@ -23,9 +23,9 @@ sudo apt-get install zip
 sudo apt-get install libopenblas-dev
 sudo apt-get install python3-full
 sudo apt-get install pipx
-sudo pip3 install dlib
+sudo pipx install dlib
 
-sudo pip3 install --no-cache-dir face_recognition
+sudo pipx install --no-cache-dir face_recognition
 
 git clone --single-branch https://github.com/ageitgey/face_recognition.git
 
