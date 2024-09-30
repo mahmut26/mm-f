@@ -27,7 +27,7 @@ Second, copy and rename codes in face.py. (for each friend)
 Third, copy and paste fdx.sh, renaming them as (fd1.sh, fd2.sh, etc.). 
 Fourth, if you’re using different configs for MagicMirror, make sure the fdx.sh scripts are correct. (and used in face.py)
 Fifth, since you have opened face detection, and MagicMirror and the browser are working, you may want to get the LCD working. For that, you’ll need GPIO code to control a relay (I think it's in reboot.py).
-Sixth, where were we? Ah, I remember—closing. Let’s count fingers, right? There’s a .py for that, and I’ll change the names and organize them into folders for easy use.
+Sixth, where were we? Ah, I remember—closing. Let's use a GPIO pin for this task.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -56,6 +56,6 @@ Now, Lets make our moves for our small work
 
 1. sudo cp -r MagicMirror /home/{username} //{username}: This refers to your Linux username. This copies the MagicMirror folder to /home/{username}. If you want to create additional copies (for configs), you can do so; you know how to do that now!
 2. sudo apt-get install xinit //This is for launching the Midori browser.
-3. Duplicate starter.sh and customize it for your specific configurations. This is for face.py to execute it's bash (.sh). But here is a small problem. That is my old program !
-4. 
+3. Duplicate starter.sh and customize it for your specific configurations. This is for face.py to execute it's bash (.sh). But here is a small problem. That is my old program ! Its for RaspberryPI. But if you read my code you can see it's simple.
+4. Now, it's time for reboot.py. It's an older script designed for Raspberry Pi, but it remains simple and *functional*, right?
 
