@@ -38,15 +38,21 @@ chmod +x mm-f
 
 cd mm-f
 
-sh browser1.sh ile çalışıyor
+sudo sh iei.sh //The installation process for Midori will prompt for confirmation repeatedly, so be prepared for that!
 
-her birinde kabul gerekli
+sudo node.sh //This section handles the installation of Node.js on the system. 
 
-iei - midori yukler
-node node yükler 
-mm de sadece git clone var ! 
-iei, node ve mm ile yükleme yapılıyor 
+mm.sh //This section has some issues. When i tried this it wont cd. So this is for just getting MagicMirror.
+
+Continue for MagicMirror
+
+cd MagicMirror
+npm run install-mm
+cp config/config.js.sample config/config.js //For Configure go to MagicMirror's page.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Now, Lets make our moves for our small work
 
 
-sistemi anlat ufaktan tamam burası !!
 
