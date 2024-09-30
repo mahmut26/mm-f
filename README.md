@@ -54,5 +54,8 @@ cp config/config.js.sample config/config.js //For Configure go to MagicMirror's 
 
 Now, Lets make our moves for our small work
 
-
+1. sudo cp -r MagicMirror /home/{username} //{username}: This refers to your Linux username. This copies the MagicMirror folder to /home/{username}. If you want to create additional copies (for configs), you can do so; you know how to do that now!
+2. sudo apt-get install xinit //This is for launching the Midori browser.
+3. Duplicate starter.sh and customize it for your specific configurations. This is for face.py to execute it's bash (.sh). But here is a small problem. That is my old program !
+4. 
 
