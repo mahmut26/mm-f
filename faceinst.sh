@@ -25,7 +25,7 @@ sudo apt-get install python3-full
 sudo apt-get install pipx
 pip install dlib -vvv --break-system-packages 
 
-sudo pipx install --no-cache-dir face_recognition
+pip install --no-cache-dir face_recognition --break-system-packages
 
 git clone --single-branch https://github.com/ageitgey/face_recognition.git
 
