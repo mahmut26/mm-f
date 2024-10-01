@@ -23,7 +23,7 @@ sudo apt-get install zip
 sudo apt-get install libopenblas-dev
 sudo apt-get install python3-full
 sudo apt-get install pipx
-sudo pipx install dlib
+pip install dlib -vvv --break-system-packages 
 
 sudo pipx install --no-cache-dir face_recognition
 
