@@ -40,7 +40,9 @@ cd mm-f
 
 sudo sh iei.sh //The installation process for Midori will prompt for confirmation repeatedly, so be prepared for that!
 
-sudo node.sh //This section handles the installation of Node.js on the system. 
+sudo sh node.sh //This section handles the installation of Node.js on the system. 
+
+sudo sh faceinst.sh //This section must install all the requirements for the face recognition project, ensuring all necessary libraries and dependencies are correctly set up.
 
 mm.sh //This section has some issues. When i tried this it wont cd. So this is for just getting MagicMirror.
 
